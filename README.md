@@ -1,5 +1,11 @@
 # Add to Shaarli
 
-A chrome extension that lets you add the current page to your [Shaarli](https://github.com/shaarli/Shaarli) instance.
+This chrome extension lets you add the current tab or note to your [Shaarli](https://github.com/shaarli/Shaarli) instance.
+It has default keyboard shortcuts: Alt+S for adding URL, Alt+N for adding Note.
+I also changed icon in browser panel and added one to extension page. Just because I didn't like the previous one.
 
-Available on the [Chrome Web Store](https://chrome.google.com/webstore/detail/add-to-shaarli/jhfblapoehcfajokolimghdfmeeakbee).
+This extension does uses URLs, so it works regardless of Shaarli API which might be useful in case you struggle with Shaarli API on shared hosting as much as I am.
+
+This is fork of [Original Extension](https://github.com/burgyl/AddToShaarli)
+
+
