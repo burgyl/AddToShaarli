@@ -4,7 +4,7 @@ This chrome extension lets you add the current tab or note to your [Shaarli](htt
 It has default keyboard shortcuts: Alt+S for adding URL, Alt+N for adding Note.
 I also changed icon in browser panel and added one to extension page. Just because I didn't like the previous one.
 
-This extension does uses URLs, so it works regardless of Shaarli API which might be useful in case you struggle with Shaarli API on shared hosting as much as I am.
+This extension doe uses URLs, so it works regardless of Shaarli API which might be useful in case you struggle with Shaarli API on shared hosting as much as I am.
 
 ### New features:
 - adding notes
