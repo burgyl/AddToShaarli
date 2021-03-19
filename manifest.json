@@ -1,44 +1,44 @@
 {
-    "manifest_version": 2,
-    "name": "Add to Shaarli",
-    "description": "This extension lets you add the current tab or note to your Shaarli instance.",
-    "version": "1.0.0",
-    "icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
-    
-    "options_page": "options.html",
-    "options_ui": {
-        "page": "options.html",
-        "open_in_tab": false
-    },
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
-    },
-    "permissions": [
-        "activeTab",
-        "storage"
+  "manifest_version": 2,
+  "name": "Add to Shaarli",
+  "description": "This extension lets you add the current tab or note to your Shaarli instance.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "scripts": [
+      "background.js"
     ],
-	"commands": {
-		  "add-url": {
-            "suggested_key": {
-              "default": "Alt+S"
-            },
-            "description": "Adds current tab to Shaarli"
-          },
-		   "add-note": {
-            "suggested_key": {
-              "default": "Alt+N"
-            },
-            "description": "Adds note to Shaarli"
-          }
-        }
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "commands": {
+    "add-url": {
+      "suggested_key": {
+        "default": "Alt+S"
+      },
+      "description": "Adds current tab to Shaarli"
+    },
+    "add-note": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Adds note to Shaarli"
+    }
+  }
 }
