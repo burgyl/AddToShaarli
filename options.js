@@ -1,5 +1,5 @@
 function save_options() {
-    var shaarliInstance = document.getElementById('shaarliInstance').value;
+    const shaarliInstance = document.getElementById('shaarliInstance').value;
     chrome.storage.sync.set({
         savedShaarliInstance: shaarliInstance
     }, function () {
